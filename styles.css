@@ -1,0 +1,38 @@
+body {
+    background-color: #fee3d8;
+}
+
+h2, 
+p,
+td {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 40px;
+    
+}
+
+.send {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #bfee62;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.send:hover {
+    opacity: 0.7;
+}
